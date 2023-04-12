@@ -1,0 +1,11 @@
+body{
+
+    background-image: url("images/comienzo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a:hover{
+    cursor:pointer;
+    opacity: 0.5;
+}

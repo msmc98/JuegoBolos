@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="images/styleJuego.css">
+    <title>Juego Bolos</title>
+    
+</head>
+<body style="background-image: url('images/suelo.jpg');background-repeat: no-repeat;background-size: cover;">
+    <div class="suelo">
+        <div class="bolos">
+            <img class="bolo" id="bolo10" src="images/boloX.png" alt="">
+            <img class="bolo" id="bolo9" src="images/boloX.png" alt="">
+            <img class="bolo" id="bolo8" src="images/boloX.png" alt="">
+            <img class="bolo" id="bolo7" src="images/boloX.png" alt="">
+        </div>
+        <div class="bolos">
+            <img class="bolo" id="bolo6" src="images/boloX.png" alt="">
+            <img class="bolo" id="bolo5" src="images/boloX.png" alt="">
+            <img class="bolo" id="bolo4" src="images/boloX.png" alt="">
+        </div>
+        <div class="bolos">
+            <img class="bolo" id="bolo3" src="images/boloX.png" alt="">
+            <img class="bolo" id="bolo2" src="images/boloX.png" alt="">
+        </div>
+        <div class="bolos">
+            <img class="bolo" id="bolo1" src="images/boloX.png" alt="">
+        </div>
+    </div>
+    <div class="inter">
+        <div class="bola">
+            <img src="images/BolaBolos.png" id="bola" alt="">
+        </div>
+        <div class="puntuacion">
+            <table>
+                <tr>
+                    <th>Jugador</th>
+                    <th>Puntuación</th>
+                    <th>Jugadas</th>
+                    <th>Nº Tirada</th>   
+                </tr>
+                <tr>
+                    <td id="jugador1"></td>
+                    <td id="puntuacion1">0</td>
+                    <td id="jugadas1">10</td>
+                    <td id="tiradas1">0</td>
+                </tr>
+                <tr>
+                    <td id="jugador2"></td>
+                    <td id="puntuacion2">0</td>
+                    <td id="jugadas2">10</td>
+                    <td id="tiradas2">0</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+</body>
+<script type="module" src="index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>
